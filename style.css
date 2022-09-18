@@ -14,3 +14,30 @@ h2 {
     line-height: 150%;
     color: #0A3871;
 }
+
+.cuadro {
+    position: absolute;
+    width: 400px;
+    height: 944px;
+    left: 1000px;
+    top: 40px;
+}
+
+/* .resultados {
+
+} 
+
+.busqueda {
+    
+} */
+
+.busqueda, p {
+    width: 336px;
+    height: 48px;
+    font-family: "inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.8px;
+    text-align: center;
+}
