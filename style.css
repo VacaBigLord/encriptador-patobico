@@ -7,6 +7,9 @@
     height: 48px;
 }
 
+a {
+    text-decoration: none;
+}
 h1 img {
     width: 48px;
     height: 48px;
