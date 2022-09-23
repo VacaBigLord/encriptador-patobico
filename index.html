@@ -6,6 +6,10 @@
        <meta charset="UTF-8">
        <link rel="stylesheet" href="reset.css">
        <link rel="stylesheet" href="style.css">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet"> 
+
        <title>Encriptador</title>
     </head>
 
@@ -25,18 +29,30 @@
             <h2>ingrese el texto aquí</h2>
         
             <section class="cuadro">
-                <block class="resultados">
-                </block>
+                <div class="resultados">
+                </div>
 
-                <block class="busqueda">
+                <div class="busqueda">
                     <img src="imagenes/Muñeco.png" alt= "imagen de busqueda">
                     <p>Ningún mensaje fue encontrado</p>
-                </block>
+                </div>
             </section>
-            <section class="botones">
-                <button>Encriptar</button>
-                <button id="b1">Desencriptar</button>
+            
+            <section class="inferior">
+                <section class="alerta">
+                    <p><img src="imagenes/Vector.png">Solo letras minúsculas y sin tildes</p>
+                </section>
+                
+                <div class="botones">
+                    <button><p>Encriptar</p></button>
+                    <button id="b1"><p>Desencriptar</p></button>
+                </div>
+                
             </section>
         </main>
+
+        <footer>
+            Creado con esfuerzo por Mauri
+        </footer>
     </body>
 </html>
