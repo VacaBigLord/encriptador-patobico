@@ -65,3 +65,35 @@ h2 {
     line-height: 28.8px;
     text-align: center;
 }
+
+.botones {
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left: 240px;
+    top: 885px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.botones button {
+    background: #0A3871;
+    color: #FFFFFF;
+    width: 328px;
+    height: 67px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 24px;
+    border-radius: 24px;
+    font-family: "Inter";
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+
+}
+
+#b1 {
+    background: #BBBBBB;
+}
