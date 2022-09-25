@@ -3,7 +3,7 @@ body {
 }
 
 .caja {
-    width: 940px;
+    width: 18%;
 }
 
 .alura {
@@ -14,6 +14,7 @@ body {
 a {
     text-decoration: none;
 }
+
 h1 img {
     width: 48px;
     height: 48px;
@@ -27,7 +28,7 @@ h1 img:hover {
     opacity: 5%;
 }
 
-h2 {
+textarea {
     position: absolute;
     width: 577px;
     height: 48px;
@@ -39,6 +40,7 @@ h2 {
     font-size: 32px;
     line-height: 150%;
     color: #0A3871;
+    border-radius: 10px;
 }
 
 .cuadro {
